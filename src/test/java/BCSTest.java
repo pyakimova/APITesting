@@ -75,6 +75,7 @@ public class BCSTest {
         String lastNameEdited = "lastNameEdited";
         String birthDateEdited = "2020-05-24T04:19:52.589Z";
         String sexEdited = "M";
+        data.put("firstId", firstId);
         data.put("firstName", firstNameEdited);
         data.put("lastName", lastNameEdited);
         data.put("birthDate", birthDateEdited);
